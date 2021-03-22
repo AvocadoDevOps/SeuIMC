@@ -25,7 +25,7 @@ namespace SeuIMC
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 Form3 = new Form();
+            Form3 Form3 = new Form3();
             Form3.Show();
         }
     }
