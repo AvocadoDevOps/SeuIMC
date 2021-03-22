@@ -22,5 +22,10 @@ namespace SeuIMC
             Form2 Form2 = new Form2();
             Form2.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
