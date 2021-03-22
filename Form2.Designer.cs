@@ -99,6 +99,7 @@ namespace SeuIMC
             this.peso.Name = "peso";
             this.peso.Size = new System.Drawing.Size(100, 23);
             this.peso.TabIndex = 6;
+            this.peso.TextChanged += new System.EventHandler(this.peso_TextChanged);
             // 
             // calcular
             // 
@@ -108,6 +109,7 @@ namespace SeuIMC
             this.calcular.TabIndex = 7;
             this.calcular.Text = "Calcular";
             this.calcular.UseVisualStyleBackColor = true;
+            this.calcular.Click += new System.EventHandler(this.calcular_Click);
             // 
             // Form2
             // 

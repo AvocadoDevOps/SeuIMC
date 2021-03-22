@@ -14,5 +14,28 @@ namespace SeuIMC
         {
             InitializeComponent();
         }
+
+        private void calcular_Click(object sender, EventArgs e)
+        {
+            Form4 Form4 = new Form4();
+            Form4.Show();
+            double imc, altura2, peso2, final2;
+            peso2 = double.Parse(peso.Text);
+            altura2 = double.Parse(altura.Text);
+            imc = peso2 / (altura2 * altura2);
+            final2 = imc * 10000;
+            MessageBox.Show("Seu Imc eh: " + final2, "Resultado", MessageBoxButtons.OK);
+            
+        }
+
+        private void peso_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void final_TextChanged(object sender, EventArgs e)
+        {
+        
+        }
     }
 }
